@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+    <script>
+
+    </script>
+</head>
+<body class="flex justify-center items-center w-full h-screen relative bg-gradient-to-t from-purple-500 to-pink-500">
+  <div class="contanier-music bg-slate-500 p-2  absolute translate-x--2/4  top-2/4 rounded w-10/12 sm:w-5/6 bg-white shadow-4xl md:w-4/5 lg:w-3/12"> 
+    <div class="image m-auto w-40 h-40 relative bottom-20">
+      <img src="https://i1.sndcdn.com/artworks-000278411180-v08rj4-t500x500.jpg" alt="photo" class="rounded-full w-full h-full infat">
+    </div>
+    <audio   class="m-auto audio">
+      <source src="https://server6.mp3quran.net/abkr/001.mp3" type="audio/mp3">
+    </audio>
+    <div class="progress-container text-center hidden">
+      <input type="range" class="progress-bar w-64 sm:w-64 md:w-96 lg:w-96" value="0" max="100">
+  </div>
+    <div class="controls flex justify-center">
+      <button class="m-2 p-2 bg-white rounded-full h-10 w-10 backward" ><i class="fa-solid fa-backward text-slate-700  transition duration-700"></i></button>
+      <button class="m-2 p-2 bg-white rounded-full h-10 w-10 play"><i class="fa-solid fa-play text-slate-700  transition duration-700"></i></button>
+      <button class="m-2 p-2 bg-white rounded-full h-10 w-10 forward"><i class="fa-solid fa-forward text-slate-700  transition duration-700"></i></button>
+    </div>
+  </div>
+  <script src="main.js"></script> 
+  <script src="index.js"></script> 
+<script src="app.js"></script> 
+<script src="mod-one.js"></script> 
+</body>
+</html>
